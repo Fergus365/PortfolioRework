@@ -1,0 +1,182 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bulma-body-background-color: white;
+  --bulma-skeleton-background: var(--bulma-border);
+  --bulma-skeleton-radius: var(--bulma-radius-small);
+  --bulma-skeleton-block-min-height: 4.5em;
+  --bulma-skeleton-lines-gap: 0.75em;
+  --bulma-skeleton-line-height: 0.75em;
+
+  --bulma-primary-h: 243deg;
+  --bulma-primary-s: 100%;
+  --bulma-primary-l: 69%;
+}
+
+header {
+  transition: 250ms;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  margin-inline: auto;
+}
+
+.right-bottom-notification {
+  right: 1rem;
+  bottom: 0;
+  margin-left: 1rem;
+  box-shadow: 0px 0px 25px hsl(0, 100%, 0%, 0.15);
+  background-color: #F2F2F2;
+  color: #1a1a1a;
+  z-index: 999;
+}
+
+.logo {
+  background-color: transparent !important;
+  color: #6B63FF !important;
+  transition: 250ms;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+h3 {
+  font-size: 1.5rem !important;
+}
+
+p,
+li {
+  text-wrap: pretty;
+  font-size: 1rem !important;
+}
+
+.box {
+  border: 1px solid #F2F2F2;
+  background-color: white;
+}
+
+.border-full-1 {
+  border: 1px solid #F2F2F2;
+}
+
+.border-left-1 {
+  border-left: 1px solid #F2F2F2;
+}
+
+.border-right-1 {
+  border-right: 1px solid #F2F2F2;
+}
+
+.border-top-1 {
+  border-top: 1px solid #F2F2F2;
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid #F2F2F2;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem !important;
+}
+
+.navbar {
+  --bulma-navbar-background-color: transparent;
+}
+
+.offset-top {
+  position: relative;
+  top: -100px;
+}
+
+.spacer {
+  height: 120px;
+}
+
+.title {
+  color: #1a1a1a;
+}
+
+.subtitle {
+  color: hsl(0, 0%, 14%);
+  margin-top: 0.5rem;
+}
+
+.stats-title {
+  background-color: #6B63FF;
+  color: white;
+}
+
+.white-color-text {
+  color: white !important;
+}
+
+.is-circle {
+  border-radius: 100%;
+}
+
+.navbar-item {
+  color: #1a1a1a;
+}
+
+.br-1 {
+  border-radius: 1rem;
+}
+
+.br-2 {
+  border-radius: 2rem;
+}
+
+.overlay-content {
+  opacity: 0;
+  transition: 250ms;
+  background-color: hsla(0, 0%, 33%, 0.95);
+  border-radius: 1rem;
+  height: 100%;
+}
+
+.overlay-content:hover {
+  opacity: 1;
+}
+
+.bgtitan {
+  background-image: url("./assets/titanlogo.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bgaud {
+  background-image: url("./assets/audlogo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bulmalogo {
+  width: 160px;
+}
+
+.socials {
+  transition: 250ms;
+  color: white;
+}
+
+.socials:hover {
+  background-color: white;
+  color: #6B63FF;
+}
